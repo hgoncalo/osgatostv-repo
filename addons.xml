@@ -1,19 +1,28 @@
 <addons>
     <addon id="repository.osgatostv"
-           name="OsGatosTV Repository"
+           name="OsGatosTV Repo"
            version="1.0.0"
            provider-name="hgoncalo">
-
-        <extension point="xbmc.addon.repository" name="OsGatosTV Repo">
+        <extension point="xbmc.addon.repository" name="OsGatosTV Repository">
             <info compressed="false">https://hgoncalo.github.io/osgatostv-repo/addons.xml</info>
             <checksum>https://hgoncalo.github.io/osgatostv-repo/addons.xml.md5</checksum>
             <datadir zip="true">https://hgoncalo.github.io/osgatostv-repo/zips/</datadir>
         </extension>
+    </addon>
 
-        <extension point="xbmc.addon.metadata">
-            <summary>OsGatos TV</summary>
-            <description>All Gato Fedorento's media in one place!</description>
-            <platform>all</platform>
+    <addon id="plugin.video.osgatostv"
+           name="OsGatos TV"
+           version="1.0.0"
+           provider-name="hgoncalo">
+        <requires>
+            <import addon="xbmc.python" version="3.0.0"/>
+            <import addon="plugin.video.youtube" version="6.0.0"/>
+        </requires>
+        <extension point="xbmc.python.pluginsource" library="main.py">
+            <provides>video</provides>
         </extension>
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
     </addon>
 </addons>
