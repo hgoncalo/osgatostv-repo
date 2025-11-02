@@ -1,20 +1,4 @@
 <addons>
-    <addon id="repository.osgatostv"
-           name="OsGatosTV Repo"
-           version="1.0.0"
-           provider-name="hgoncalo">
-        <extension point="xbmc.addon.repository" name="OsGatosTV Repository">
-            <info compressed="false">https://hgoncalo.github.io/osgatostv-repo/addons.xml</info>
-            <checksum>https://hgoncalo.github.io/osgatostv-repo/addons.xml.md5</checksum>
-            <datadir zip="true">https://hgoncalo.github.io/osgatostv-repo/zips/</datadir>
-        </extension>
-        <extension point="xbmc.addon.metadata">
-            <summary>Official OsGatosTV repository</summary>
-            <description>Install OsGatosTV and get automatic updates</description>
-            <platform>all</platform>
-        </extension>
-    </addon>
-
     <addon id="plugin.video.osgatostv"
            name="OsGatos TV"
            version="1.0.0"
