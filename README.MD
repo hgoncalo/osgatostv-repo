@@ -13,7 +13,7 @@ Pre-requisites:
 1) Go to Settings > File Manager > Add Source, and add the following source:
 
 ```bash
-  https://raw.githubusercontent.com/hgoncalo/osgatostv-repo/main/
+  https://hgoncalo.github.io/osgatostv-repo/
 ```
 2) Go back to Settings > Add-Ons > Install from Zip-File, choose this repository and you should be able to see a zip file like this:
 ```bash
