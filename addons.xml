@@ -8,6 +8,11 @@
             <checksum>https://hgoncalo.github.io/osgatostv-repo/addons.xml.md5</checksum>
             <datadir zip="true">https://hgoncalo.github.io/osgatostv-repo/zips/</datadir>
         </extension>
+        <extension point="xbmc.addon.metadata">
+            <summary>Official OsGatosTV repository</summary>
+            <description>Install OsGatosTV and get automatic updates</description>
+            <platform>all</platform>
+        </extension>
     </addon>
 
     <addon id="plugin.video.osgatostv"
